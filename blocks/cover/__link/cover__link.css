@@ -1,0 +1,6 @@
+/* 425px */
+@media (max-width: 425px) {
+  .cover__link {
+    padding: 10%;
+  }
+}
