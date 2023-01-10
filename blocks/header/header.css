@@ -1,8 +1,8 @@
 .header {
-  margin: 28px auto 56px;
-  max-width: calc(100% - 96px);
   display: flex;
   justify-content: space-between;
+  max-width: calc(100% - 96px);
+  margin: 28px auto 56px;
 }
 
 /* 1024 */
@@ -22,7 +22,7 @@
 /* 425 */
 @media (max-width: 425px) {
   .header {
-    margin: 16px auto 48px;
     max-width: calc(100% - 32px);
+    margin: 16px auto 48px;
   }
 }

@@ -1,8 +1,9 @@
 .place__link {
+  font-family: 'Inter-Regular', 'Arial', sans-serif;
   font-size: 18px;
   line-height: 1.22;
   color: rgba(255, 255, 255, 1);
-  font-family: 'Inter-Regular', 'Arial', sans-serif;
+
   transition: opacity 0.2s ease;
   opacity: 1;
 }

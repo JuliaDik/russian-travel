@@ -4,6 +4,7 @@
   line-height: 1.17;
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
+  
   transition: opacity 0.2s ease;
   opacity: 1;
 }

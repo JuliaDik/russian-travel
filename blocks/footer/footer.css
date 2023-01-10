@@ -1,8 +1,8 @@
 .footer {
-  margin: 0 auto 23px;
-  max-width: calc(100% - 96px);
   display: flex;
   justify-content: space-between;
+  max-width: calc(100% - 96px);
+  margin: 0 auto 23px;
 }
 
 /* 768px */

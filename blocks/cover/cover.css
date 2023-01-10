@@ -1,36 +1,39 @@
 .cover {
-  margin: 0 auto 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: calc(100% - 96px);
+  margin: 0 auto 92px;
+
   background-image: url('../../images/cover-image(L).jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* 1024px */
 @media (max-width: 1024px) {
   .cover {
-    max-height: 640px;
     max-width: 100%;
+    max-height: 640px;
   }
 }
 
 /* 768px */
 @media (max-width: 768px) {
   .cover {
-    margin: 0 auto 88px;
-    background-image: url('../../images/cover-image(S).jpg');
     max-height: 480px;
+    margin: 0 auto 88px;
+
+    background-image: url('../../images/cover-image(S).jpg');
   }
 }
 
 /* 425px*/
 @media (max-width: 425px) {
   .cover {
-    margin: 0 auto 64px;
     max-height: 200px;
+
+    margin: 0 auto 64px;
   }
 }

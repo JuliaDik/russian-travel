@@ -1,8 +1,8 @@
 .places {
-  max-width: calc(100% - 296px);
-  margin: 0 auto 90px;
-  display: grid;
-  justify-content: center;
+	display: grid;
+	justify-content: center;
+	max-width: calc(100% - 296px);
+	margin: 0 auto 90px;
 }
 
 /* 1024px */
