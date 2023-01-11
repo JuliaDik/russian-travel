@@ -15,8 +15,9 @@
     <a href="#">
       <img
         class="header__logo-link"
-        src="images/logo.svg"
-        alt="Логотип">
+        src="images/header-logo.svg"
+        alt="Логотип"
+        loading="lazy">
     </a>
     <ul class="header__lang-list">
       <li class="header__lang-item">
@@ -35,14 +36,14 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <picture>
-        <source srcset="images/lead_train(S).jpg" media="(max-width: 768px)">
+      <figure class="lead__image-wrapper">
         <img
           class="lead__image"
-          src="images/lead_train(L).jpg"
-          alt="Плацкарт и маршрут путешествия">
-      </picture>
-      <p class="lead__caption">Ваша полка — верхняя</p>
+          src="images/lead-polka.jpg"
+          alt="Плацкарт и маршрут путешествия"
+          loading="lazy">
+        <figcaption class="lead__caption">Ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <!-- Intro: введение -->
@@ -79,90 +80,92 @@
 
     <!-- Photo-grid: фото-галерея -->
     <section class="photo-grid" aria-label="фото-галерея">
-      <picture>
-        <source srcset="images/photo-grid_window(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_window(L).jpg"
-          alt="Поезд">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_atharva-tulsi(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_atharva-tulsi(L).jpg"
-          alt="Атхарва Тулси">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_tuman(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_tuman(L).jpg"
-          alt="Туман">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_sochi(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_sochi(L).jpg"
-          alt="Сочи">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_arisa-chattasa(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_arisa-chattasa(L).jpg"
-          alt="Ариса Чаттаса">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_baikal(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_baikal(L).jpg"
-          alt="Байкал 1">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_elbrus(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_elbrus(L).jpg"
-          alt="Эльбрус">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_stanislav-kondratiev(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_stanislav-kondratiev(L).jpg"
-          alt="Станислав Кондратьев">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_kamchatka(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_kamchatka(L).jpg"
-          alt="Камчатка 1">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_kamchatka2(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_kamchatka2(L).jpg"
-          alt="Камчатка 2">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_baikal2(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_baikal2(L).jpg"
-          alt="Байкал 2">
-      </picture>
-      <picture>
-        <source srcset="images/photo-grid_ergaki(S).jpg" media="(max-width: 768px)">
-        <img
-          class="photo-grid__image"
-          src="images/photo-grid_ergaki(L).jpg"
-          alt="Ергаки">
-      </picture>
+      <ul class="photo-grid__gallery">
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-train.jpg"
+            alt="Поезд"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-atharva-tulsi.jpg"
+            alt="Атхарва Тулси"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-tuman.jpg"
+            alt="Туман"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-sochi.jpg"
+            alt="Сочи"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-arisa.jpg"
+            alt="Ариса Чаттаса"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-baikal-1.jpg"
+            alt="Байкал 1"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-elbrus.jpg"
+            alt="Эльбрус"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-kondratiev.jpg"
+            alt="Кондратьев"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-kamchatka-1.jpg"
+            alt="Камчатка 1"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-kamchatka-2.jpg"
+            alt="Камчатка 2"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-baikal-2.jpg"
+            alt="Байкал 2"
+            loading="lazy">
+        </li>
+        <li>
+          <img
+            class="photo-grid__image"
+            src="images/photo-grid-ergaki.jpg"
+            alt="Ергаки"
+            loading="lazy">
+        </li>
+      </ul>
     </section>
 
     <!-- Places: туристические места -->
@@ -178,13 +181,11 @@
             park-kosa.ru
           </a>  
         </div>
-        <picture>
-          <source srcset="images/place_kurshskaya-kosa(S).jpg" media="(max-width: 768px)">
-          <img
-            class="place__image"
-            src="images/place_kurshskaya-kosa(L).jpg"
-            alt="Куршская коса">
-        </picture>
+        <img
+          class="place__image"
+          src="images/place-kosa.jpg"
+          alt="Куршская коса"
+          loading="lazy">
         <div class="place__paragraphs">
           <p class="place__paragraph">
             Здесь, посреди лесов и песчаных дюн, вы сможете увидеть
@@ -212,13 +213,11 @@
             National Geographic
           </a>  
         </div>
-        <picture>
-          <source srcset="images/place_kolskii(S).jpg" media="(max-width: 768px)">
-          <img
-            class="place__image"
-            src="images/place_kolskii(L).jpg"
-            alt="Кольский">
-        </picture>
+        <img
+          class="place__image"
+          src="images/place-kolsky.jpg"
+          alt="Кольский"
+          loading="lazy">
         <div class="place__paragraphs">
           <p class="place__paragraph">
             Почти весь полуостров находится за Полярным кругом.
@@ -245,13 +244,11 @@
             YouTube
           </a>  
         </div>
-        <picture>
-          <source srcset="images/place_altai(S).jpg" media="(max-width: 768px)">
-          <img
-            class="place__image"
-            src="images/place_altai(L).jpg"
-            alt="Алтай">
-        </picture>
+        <img
+          class="place__image"
+          src="images/place-altai.jpg"
+          alt="Алтай"
+          loading="lazy">
         <div class="place__paragraphs">
           <p class="place__paragraph">
             Алтай — одно из красивейших мест в России. В первую очередь
@@ -278,13 +275,11 @@
             https://vk.com/baikalmile
           </a>  
         </div>
-        <picture>
-          <source srcset="images/place_winter-baikal(S).jpg" media="(max-width: 768px)">
-          <img
-            class="place__image"
-            src="images/place_winter-baikal(L).jpg"
-            alt="Зимний Байкал">
-        </picture>
+        <img
+          class="place__image"
+          src="images/place-winter-baikal.jpg"
+          alt="Зимний Байкал"
+          loading="lazy">
         <div class="place__paragraphs">
           <p class="place__paragraph">
             Всем известен Байкал как крупнейшее озеро в мире.
@@ -311,13 +306,11 @@
             http://vodlozero.ru/
           </a>  
         </div>
-        <picture>
-          <source srcset="images/place_kareliya(S).jpg" media="(max-width: 768px)">
-          <img
-            class="place__image"
-            src="images/place_kareliya(L).jpg"
-            alt="Карелия">
-        </picture>
+        <img
+          class="place__image"
+          src="images/place-karelia.jpg"
+          alt="Карелия"
+          loading="lazy">
         <div class="place__paragraphs">
           <p class="place__paragraph">
             Сибирь заканчивается не на Урале, а в Карелии:

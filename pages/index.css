@@ -1,5 +1,10 @@
-@import url(../vendor/fonts.css);
+/* normalize.css */
+@import url(../vendor/normalize.css);
 
+/* шрифты */
+@import url(../vendor/fonts/fonts.css);
+
+/* body */
 @import url(../blocks/page/page.css);
 
 /* Шапка сайт */
@@ -16,6 +21,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image-wrapper/lead__image-wrapper.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -28,6 +34,7 @@
 
 /* Photo-grid: фото-галерея */
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__gallery/photo-grid__gallery.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 /* Places: туристические места */
@@ -41,7 +48,7 @@
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
-/* Cover: До Байкала «на собаках» */
+/* Cover: до Байкала «на собаках» */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);

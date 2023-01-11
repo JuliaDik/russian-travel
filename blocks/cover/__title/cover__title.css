@@ -2,11 +2,10 @@
   max-width: 560px;
   margin: 0 auto 34px;
 
-  font-family: 'Inter-Bold', 'Arial', sans-serif;
+  font-weight: 700;
   font-size: 73px;
   line-height: 1;
   text-align: center;
-  color: rgba(255, 255, 255, 1);
 }
 
 /* 767px */
@@ -20,7 +19,7 @@
 /* 425px */
 @media (max-width: 425px) {
   .cover__title  {
-    max-width: 288px;
-    margin-bottom: 16px;
+    max-width: 251px;
+    margin-bottom: 15px;
   }
 }

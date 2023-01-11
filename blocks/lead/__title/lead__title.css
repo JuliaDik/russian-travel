@@ -1,12 +1,11 @@
 .lead__title {
   max-width: 720px;
-  margin: 0 auto 32px;
+  margin: 0 auto 33px;
 
-  font-family: 'Inter-Black', 'Arial', sans-serif;
+  font-weight: 900;
   font-size: 96px;
-  line-height: 1.02;
+  line-height: 1;
   text-align: center;
-  color: rgba(255, 255, 255, 1);
 }
 
 /* 720px */

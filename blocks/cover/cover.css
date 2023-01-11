@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   max-width: calc(100% - 96px);
-  margin: 0 auto 92px;
+  margin: 0 auto 93px;
 
   background-image: url('../../images/cover-image(L).jpg');
   background-position: center;
@@ -25,7 +25,7 @@
     max-height: 480px;
     margin: 0 auto 88px;
 
-    background-image: url('../../images/cover-image(S).jpg');
+    background-image: url('../../images/cover-trains.jpg');
   }
 }
 
