@@ -5,7 +5,7 @@
   max-width: calc(100% - 96px);
   margin: 0 auto 93px;
 
-  background-image: url('../../images/cover-image(L).jpg');
+  background-image: url('../../images/cover-trains.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,8 +24,6 @@
   .cover {
     max-height: 480px;
     margin: 0 auto 88px;
-
-    background-image: url('../../images/cover-trains.jpg');
   }
 }
 
@@ -33,7 +31,6 @@
 @media (max-width: 425px) {
   .cover {
     max-height: 200px;
-
     margin: 0 auto 64px;
   }
 }
