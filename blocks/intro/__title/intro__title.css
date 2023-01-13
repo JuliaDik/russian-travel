@@ -10,8 +10,8 @@
 @media (max-width: 425px) {
   .intro__title {
     max-width: 251px;
-    
-    font-size: calc((100vw - 320px)/(425 - 320) * (54 - 32) + 32px);
-    line-height: calc((100vw - 320px)/(425 - 320) * (58 - 37) + 37px);
+
+    font-size: calc((100vw - 320px) / (425 - 320) * (54 - 32) + 32px);
+    line-height: calc((100vw - 320px) / (425 - 320) * (58 - 37) + 37px);
   }
 }

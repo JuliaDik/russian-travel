@@ -11,7 +11,7 @@
 /* 720px */
 @media (max-width: 720px) {
   .lead__title {
-    font-size: calc((100vw - 425px)/(720 - 425) * (96 - 40) + 40px); 
+    font-size: calc((100vw - 425px) / (720 - 425) * (96 - 40) + 40px);
   }
 }
 

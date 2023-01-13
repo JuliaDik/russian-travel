@@ -22,7 +22,7 @@
     max-width: 450px;
     margin: 0 auto 56px;
 
-    font-size: calc((100vw - 425px)/(720 - 425) * (30 - 16) + 16px);
+    font-size: calc((100vw - 425px) / (720 - 425) * (30 - 16) + 16px);
   }
 }
 
