@@ -1,14 +1,21 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  max-width: calc(100% - 96px);
+  width: calc(100% - 48px * 2);
   margin: 0 auto 23px;
+}
+
+/* 1280px */
+@media (max-width: 1280px) {
+  .footer {
+    width: calc(100% - calc((100vw - 768px) / (1280 - 768) * (48 - 24) + 24px) * 2);
+  }
 }
 
 /* 768px */
 @media (max-width: 768px) {
   .footer {
-    max-width: calc(100% - 48px);
+    width: calc(100% - 24px * 2);
   }
 }
 

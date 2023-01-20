@@ -1,5 +1,6 @@
 .place {
   display: grid;
+  align-items: start;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
   gap: 48px 40px;
 }
@@ -12,23 +13,23 @@
   }
 }
 
-/* 900px */
-@media (max-width: 900px) {
+/* 768px */
+@media (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
+    gap: 45px 28px;
+  }
+}
+
+/* 767px */
+@media (max-width: 767px) {
   .place {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/* 768px */
-@media (max-width: 768px) {
-  .place {
-    grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
-    gap: 46px 28px;
-  }
-}
-
-/* 640px */
-@media (max-width: 640px) {
+/* 568px */
+@media (max-width: 568px) {
   .place {
     grid-template-columns: 1fr;
     gap: 32px 0;

@@ -12,7 +12,7 @@
 @media (max-width: 1024px) {
   .photo-grid__gallery {
     grid-template-columns: repeat(3, 1fr);
-    gap: 9px 12px;
+    gap: 12px 14px;
   }
 }
 
@@ -28,6 +28,6 @@
 @media (max-width: 425px) {
   .photo-grid__gallery {
     grid-template-columns: 1fr;
-    row-gap: 8px;
+    gap: 8px 16px;
   }
 }

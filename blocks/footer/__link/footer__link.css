@@ -4,8 +4,8 @@
   text-decoration: none;
   color: inherit;
 
-  transition: opacity 0.2s ease;
   opacity: 1;
+  transition: opacity 0.2s ease;
 }
 
 .footer__link:hover {

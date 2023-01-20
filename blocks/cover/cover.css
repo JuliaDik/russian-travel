@@ -1,25 +1,21 @@
 .cover {
-  max-width: calc(100% - 96px);
-  margin: 0 auto 93px;
+  width: calc(100% - 48px * 2);
+  margin: 0 auto 92px;
+
+  background: url(../../images/cover-trains.jpg) no-repeat center / contain;
 }
 
 /* 1024px */
 @media (max-width: 1024px) {
   .cover {
-    max-width: 100%;
+    width: 100%;
+    margin: 0 auto calc((100vw - 768px) / (1024 - 768) * (92 - 88) + 88px);
   }
 }
 
 /* 768px */
 @media (max-width: 768px) {
   .cover {
-    margin: 0 auto 88px;
-  }
-}
-
-/* 425px*/
-@media (max-width: 425px) {
-  .cover {
-    margin: 0 auto 64px;
+    margin: 0 auto calc((100vw - 320px) / (768 - 320) * (88 - 64) + 64px);
   }
 }

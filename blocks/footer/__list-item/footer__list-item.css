@@ -2,6 +2,7 @@
   margin-right: 19px;
 }
 
+/* 767px */
 @media (max-width: 767px) {
   .footer__list-item {
     margin-bottom: 28px;

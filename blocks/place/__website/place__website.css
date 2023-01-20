@@ -1,11 +1,11 @@
 .place__website {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  display: grid;
+  align-self: end;
+  gap: 12px 0;
 }
 
-/* 640px */
-@media (max-width: 640px) {
+/* 568px */
+@media (max-width: 568px) {
   .place__website {
     margin-left: 16px;
   }

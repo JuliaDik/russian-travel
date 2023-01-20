@@ -1,7 +1,27 @@
-/* 640px */
-@media (max-width: 640px) {
+.place__paragraphs {
+  display: grid;
+  gap: 26px 0;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* 768px */
+@media (max-width: 768px) {
   .place__paragraphs {
-    max-width: calc(100% - 32px);
-    margin: 0 auto;
+    gap: 25px 0;
+
+    font-size: 16px;
+  }
+}
+
+/* 568px */
+@media (max-width: 568px) {
+  .place__paragraphs {
+    margin: 0 16px;
+
+    line-height: 1.63;
   }
 }

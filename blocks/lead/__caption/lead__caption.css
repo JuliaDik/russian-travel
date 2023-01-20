@@ -9,12 +9,12 @@
 /* 768px */
 @media (max-width: 768px) {
   .lead__caption {
-    margin-left: 24px;
+    margin-left: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
   }
 }
 
-/* 425px */
-@media (max-width: 425px) {
+/* 320px */
+@media (max-width: 320px) {
   .lead__caption {
     margin-left: 16px;
   }

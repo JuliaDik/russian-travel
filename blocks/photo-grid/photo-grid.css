@@ -1,20 +1,26 @@
 .photo-grid {
-  max-width: calc(100% - 96px);
+  width: calc(100% - 48px * 2);
   margin: 0 auto 88px;
+}
+
+/* 1024px */
+@media (max-width: 1024px) {
+  .photo-grid {
+    width: calc(100% - calc((100vw - 768px) / (1024 - 768) * (48 - 24) + 24px) * 2);
+  }
 }
 
 /* 768px */
 @media (max-width: 768px) {
   .photo-grid {
-    max-width: calc(100% - 48px);
-    margin: 0 auto 88px;
+    width: calc(100% - calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px) * 2);
   }
 }
 
-/* 425px */
-@media (max-width: 425px) {
+/* 320px */
+@media (max-width: 320px) {
   .photo-grid {
-    max-width: calc(100% - 32px);
+    width: calc(100% - 16px * 2);
     margin: 0 auto 60px;
   }
 }
