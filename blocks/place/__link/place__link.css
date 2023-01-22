@@ -3,12 +3,4 @@
   font-size: 18px;
   line-height: 1.22;
   text-decoration-line: underline;
-  color: inherit;
-
-  opacity: 1;
-  transition: opacity 0.2s ease;
-}
-
-.place__link:hover {
-  opacity: 0.8;
 }

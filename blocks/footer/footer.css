@@ -3,7 +3,8 @@
   justify-content: space-between;
   width: calc(100% - 48px * 2);
   max-width: 1184px;
-  margin: 0 auto 23px;
+  margin: auto;
+  padding: 92px 0 23px;
 }
 
 /* 1280px */
@@ -13,10 +14,18 @@
   }
 }
 
+/* 1024px */
+@media (max-width: 1024px) {
+  .footer {
+    padding: calc((100vw - 768px) / (1024 - 768) * (92 - 88) + 88px) 0 23px;
+  }
+}
+
 /* 768px */
 @media (max-width: 768px) {
   .footer {
     width: calc(100% - 24px * 2);
+    padding: calc((100vw - 320px) / (768 - 320) * (88 - 64) + 64px) 0 23px;
   }
 }
 
@@ -24,6 +33,6 @@
 @media (max-width: 767px) {
   .footer {
     flex-direction: column;
-    margin-left: 16px;
+    padding: 64px 0 23px 16px;
   }
 }

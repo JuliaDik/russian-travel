@@ -7,6 +7,9 @@
 /* body */
 @import url(../blocks/page/page.css);
 
+/* миксы */
+@import url(../blocks/link/link.css);
+
 /* Шапка сайта */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo-link/header__logo-link.css);

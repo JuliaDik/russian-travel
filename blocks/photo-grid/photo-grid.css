@@ -1,7 +1,8 @@
 .photo-grid {
   width: calc(100% - 48px * 2);
   max-width: 1184px;
-  margin: 0 auto 88px;
+  margin: auto;
+  padding-bottom: 88px;
 }
 
 /* 1024px */
@@ -22,6 +23,6 @@
 @media (max-width: 320px) {
   .photo-grid {
     width: calc(100% - 16px * 2);
-    margin: 0 auto 60px;
+    padding-bottom: 60px;
   }
 }
